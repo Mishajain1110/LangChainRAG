@@ -1,0 +1,18 @@
+Testcase 1
+INPUT - chain.invoke('Whose has prepared this document?')
+OUTPUT - {'question': 'Whose has prepared this document?',
+ 	 'result': 'Accelio Present Applied Technology'}
+
+Testcase 2
+INPUT - chain.invoke('How to enable bookmarks in Acrobat?')
+OUTPUT - {'question': 'What sorting criteria are used?', 'result': 'Invoices sorted ascending, by date. Invoices sorted, ascending, by item type. Invoices sorted, descending, by transaction 	 amount.'}
+
+Testcase 3
+INPUT - chain.invoke('What sorting criteria are used?')
+OUTPUT - {'question': 'What sorting criteria are used?',
+ 	 'result': 'Invoices sorted, ascending, by date. Invoices sorted, ascending, by item type. Invoices sorted, descending, by transaction amount.'}
+
+Testcase 4
+INPUT - chain.invoke('What files are in the package?')
+OUTPUT - {'question': 'What files are in the package?',
+ 	 'result': 'ap_bookmark.IFD The template design. ap_bookmark.mdf The template targeted for PDF output. ap_bookmark.dat A sample data file in DAT format. ap_bookmark.bmk A sample 	 bookmark file. ap_bookmark.pdf Sample PDF output. ap_bookmark_doc.pdf A document describing the sample.'}
